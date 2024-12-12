@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>api</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        p {
+            margin-top: 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Maslahat Generatori -->
+    <div class="container">
+        <h1>Maslahat Generatori</h1>
+        <button id="adviceButton">Maslahat olish</button>
+        <p id="adviceDisplay"></p>
+    </div>
+
+    <!-- Tasodifiy Fakt -->
+    <div class="container">
+        <h1>Hayvonlar Haqida Tasodifiy Fakt</h1>
+        <button id="factButton">Fakt olish</button>
+        <p id="factDisplay"></p>
+    </div>
+
+
+    <!-- Kunning Tasodifiy Hazili -->
+    <div class="container">
+        <h1>Tasodifiy Hazil</h1>
+        <button id="jokeButton">Hazil olish</button>
+        <p id="jokeDisplay"></p>
+    </div>
+
+    <!-- Mashhur Kishilar Haqida Ma'lumot -->
+    <div class="container">
+        <h1>Mashhur Kishilar Haqida Ma'lumot</h1>
+        <input type="text" id="characterInput" placeholder="Ism kiritish" />
+        <button id="characterButton">Ma'lumot olish</button>
+        <div id="characterDisplay"></div>
+    </div>
+
+    <!-- Foydalanuvchini Ro'yxatdan O'tkazish -->
+    <div class="container">
+        <h1>Foydalanuvchini Ro'yxatdan O'tkazish</h1>
+        <input type="text" id="usernameInput" placeholder="Ism kiritish" />
+        <button id="registerButton">Ro'yxatdan o'tish</button>
+        <p id="registerMessage"></p>
+    </div>
+
+
+    <script src="main.js"> </script>
+
+</body>
+</html>
